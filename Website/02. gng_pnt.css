@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../Aset/hd-country-life-at-night-vvxmbqzkr4uumuni.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back a {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.back a:hover {
+    color: gray;
+}
+
+h1 {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    position: relative;
+    margin-left: 85px;
+    padding-bottom: 800px;
+    top: 80px; 
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    padding: 5px;
+    width: 300px;
+    height: 320px;
+    margin: 30px 30px;
+    float: left;
+}
+
+.card_img {
+    overflow: hidden;
+}
+
+.card_img img {
+    width: 300px;
+    height: 150px;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.card_img:hover img {
+    transform: scale(1.2);
+}
+
+.card_body {
+    text-align: center;
+}
+
+.card_body h2 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.card_body p {
+    margin-top: 5px;
+    font-size: 15px;
+}

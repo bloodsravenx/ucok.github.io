@@ -1,0 +1,76 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#isi {
+    background-image: url(../Aset/hd-country-life-at-night-vvxmbqzkr4uumuni.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: none;
+    min-width: 1200px;
+    height: 800px;
+    color: white;
+    
+}
+
+.src {
+    position: absolute;
+    top: 425px;
+    left: 400px;
+}
+
+.search, .btn_src {
+    border: 2px solid black;
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.search {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.btn_src:hover {
+    background-color: rgb(185, 185, 185);
+}
+
+.btn_src:active {
+    color: blue;
+}
+
+.typing {
+    position: relative;
+    left: 40%;
+    top: 325px;
+    color: white;
+    font-size: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    padding-right: 5px;
+    animation: typing 2s steps(20) infinite alternate,
+               blink 0.7s infinite
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        visibility: collapse;
+    }
+    100% {
+        width: 19%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: black;
+    }
+}
